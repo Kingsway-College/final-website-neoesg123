@@ -1,0 +1,64 @@
+body {
+    height: 500svh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 0.925fr 0.1fr 5fr 0.5fr;
+    grid-template-columns: minmax(150px, 25%) 5fr 2fr;
+}
+
+#Title {
+    background-color: rgb(73, 0, 0);
+    opacity: 0.885;
+    background-image: url(Screenshot\ 2025-02-24\ 14.11.36.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    color: white;
+    grid-column: 1/4;
+    display: grid;
+    place-content: center;
+    font-family:"Dynalight";
+    font-size: 6em;
+}
+#NavBar {
+    background-color: maroon;
+    display: flex;
+    padding: 8px;
+    position: sticky;
+    top: 0px;
+    grid-column: 1/span 3;
+}
+
+.NavLinks {
+    margin: 8px;
+    background-color: maroon;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: outset;
+}
+
+.NavLinks:hover {
+    background-color: whitesmoke ;
+    color: maroon;
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    display:  grid;
+    place-content: center;
+    grid-column: 1/span 3;
+}
+
+footer {
+    display: flex;
+    background-image: url(KINGSWAY+COLLEGE.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    grid-column: 1/span 3;
+} 
+
